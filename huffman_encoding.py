@@ -73,11 +73,9 @@ def huffman_decode(encoded_length, codes, encoded_string):
     return decoded_string
 
 
-# Пример использования
-# Кодирование
+
 string = "Errare humanum est."
 codes, encoded_string = huffman_encode(string)
 
-# Декодирование
 encoded_length = len(encoded_string)
 decoded_string = huffman_decode(encoded_length, codes, encoded_string)
