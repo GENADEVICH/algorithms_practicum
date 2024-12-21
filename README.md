@@ -36,3 +36,13 @@ python -m modules.fib_binet
 python -m modules.fib_big_even_odd
 ```
 
+Для запуска кодирование строки по алгоритму Хаффмана используйте следующую команду:
+```bash
+python huffman_encoding.py
+```
+Для запуска декодирование строки по алгоритму Хаффмана используйте следующую команду:
+```bash
+python huffman_decoding.py
+```
+
+
