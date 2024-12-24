@@ -1,4 +1,4 @@
-def fib(n):
+def fib_eo(n):
     if n == 0:
         return "even"
     a, b = 0, 1
@@ -8,4 +8,4 @@ def fib(n):
 
 if __name__ == "__main__":
     n = 841
-    print(f"fib({n}) = {fib(n)}")
+    print(f"fib_eo({n}) = {fib_eo(n)}")
